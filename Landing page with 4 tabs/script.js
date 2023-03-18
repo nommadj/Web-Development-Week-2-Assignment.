@@ -1,21 +1,14 @@
-/* Page-specific scripts */
+// Code for mobile navigation
+const menuBtn = document.querySelector('.menu-btn');
+const navMenu = document.querySelector('nav ul');
+menuBtn.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
 
-/* Index page */
-if (document.body.classList.contains('index')) {
-  /* Add scripts for the index page here */
-}
-
-/* About page */
-if (document.body.classList.contains('about')) {
-  /* Add scripts for the about page here */
-}
-
-/* Services page */
-if (document.body.classList.contains('services')) {
-  /* Add scripts for the services page here */
-}
-
-/* Contact page */
-if (document.body.classList.contains('contact')) {
-  /* Add scripts for the contact page here */
-}
+// Code for form submission
+const form = document.querySelector('form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  // Code to submit form data and handle response goes here
+  alert('Message sent successfully!');
+});
