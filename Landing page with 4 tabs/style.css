@@ -1,0 +1,28 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page-specific styles */
+
+/* Index page */
+body.index {
+  /* Add styles for the index page here */
+}
+
+/* About page */
+body.about {
+  /* Add styles for the about page here */
+}
+
+/* Services page */
+body.services {
+  /* Add styles for the services page here */
+}
+
+/* Contact page */
+body.contact {
+  /* Add styles for the contact page here */
+}
